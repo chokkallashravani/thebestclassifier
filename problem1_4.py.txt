@@ -1,0 +1,10 @@
+def miles_to_feet(miles):
+   return miles*5280
+def convert(miles):
+   print str(miles) + "miles equals",
+   print str(miles_to_feet(miles)) + "feet."
+
+
+convert(13)
+convert(57)
+convert(82.67)
